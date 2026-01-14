@@ -17,7 +17,7 @@ echo "The current folder location is: $(pwd)"
 echo "Do you know where the cryosparc main project folder is? If not, exit."
 
 # Prompt user for input
-read -p "Enter the cryosparc main project directory (e.g. /your/directory/P1): " PROJECT
+read -p "Enter the cryosparc main project directory or folder just before the cryosparc job number folder location (e.g. /your_folder_location/): " PROJECT
 read -p "Enter the cryosparc job number (e.g. J567): " JOB
 PARTICLES_FILE="extracted_particles.cs"  # Updated file name based on directory listing
 
